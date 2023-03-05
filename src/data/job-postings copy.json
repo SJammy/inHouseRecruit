@@ -1,0 +1,193 @@
+[
+  {
+    "job-title": "Software Engineer",
+    "job-type": "Full-time",
+    "location": "San Francisco",
+    "salary": "$100,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-03-31",
+    "job-profile": "Example job profile",
+    "experience": "3+ years"
+  },
+
+  {
+    "job-title": "Product Manager",
+    "job-type": "Full-time",
+    "location": "Seattle",
+    "salary": "$120,000",
+    "posted-date": "2022-03-05",
+    "closing-date": "2022-04-05",
+    "job-profile": "Lead product development and strategy",
+    "experience": "5+ years"
+  },
+  {
+    "job-title": "Content Writer",
+    "job-type": "Freelance",
+    "location": "Boston",
+    "salary": "$0.15 per word",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-03-31",
+    "job-profile": "Write engaging and informative content for various mediums",
+    "experience": "2+ years"
+  },
+  {
+    "job-title": "DevOps Engineer",
+    "job-type": "Full-time",
+    "location": "San Diego",
+    "salary": "$130,000",
+    "posted-date": "2022-03-02",
+    "closing-date": "2022-04-02",
+    "job-profile": "Develop and maintain IT infrastructure and automation",
+    "experience": "5+ years"
+  },
+  {
+    "job-title": "Customer Service Representative",
+    "job-type": "Part-time",
+    "location": "Houston",
+    "salary": "$15 per hour",
+    "posted-date": "2022-03-03",
+    "closing-date": "2022-04-03",
+    "job-profile": "Provide assistance and support to customers",
+    "experience": "N/A"
+  },
+  {
+    "job-title": "Data Analyst",
+    "job-type": "Full-time",
+    "location": "Washington, D.C.",
+    "salary": "$95,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-04-01",
+    "job-profile": "Analyze and interpret data to inform business decisions",
+    "experience": "2+ years"
+  },
+  {
+    "job-title": "IT Project Manager",
+    "job-type": "Full-time",
+    "location": "Philadelphia",
+    "salary": "$110,000",
+    "posted-date": "2022-03-02",
+    "closing-date": "2022-04-02",
+    "job-profile": "Oversee IT projects from initiation to completion",
+    "experience": "5+ years"
+  },
+  {
+    "job-title": "Financial Analyst",
+    "job-type": "Full-time",
+    "location": "San Francisco",
+    "salary": "$90,000",
+    "posted-date": "2022-03-03",
+    "closing-date": "2022-04-03",
+    "job-profile": "Analyze financial data and provide insights and recommendations",
+    "experience": "3+ years"
+  },
+  {
+    "job-title": "Marketing Coordinator",
+    "job-type": "Full-time",
+    "location": "Chicago",
+    "salary": "$60,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-04-01",
+    "job-profile": "Support marketing campaigns and initiatives",
+    "experience": "1+ years"
+  },
+  {
+    "job-title": "Graphic Designer",
+    "job-type": "Full-time",
+    "location": "Los Angeles",
+    "salary": "$70,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-04-01",
+    "job-profile": "Create visual designs for print and digital media",
+    "experience": "2+ years"
+  },
+  {
+    "job-title": "Human Resources Manager",
+    "job-type": "Full-time",
+    "location": "New York City",
+    "salary": "$120,000",
+    "posted-date": "2022-03-02",
+    "closing-date": "2022-04-02",
+    "job-profile": "Oversee HR activities and ensure compliance with policies and regulations",
+    "experience": "7+ years"
+  },
+  {
+    "job-title": "Sales Representative",
+    "job-type": "Commission-based",
+    "location": "Miami",
+    "salary": "Commission-based",
+    "posted-date": "2022-03-03",
+    "closing-date": "2022-04-03",
+    "job-profile": "Sell products and services to customers",
+    "experience": "N/A"
+  },
+  {
+    "job-title": "Data Scientist",
+    "job-type": "Full-time",
+    "location": "Austin",
+    "salary": "$120,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-04-01",
+    "job-profile": "Develop and apply statistical and machine learning models to analyze data",
+    "experience": "5+ years"
+  },
+  {
+    "job-title": "Administrative Assistant",
+    "job-type": "Part-time",
+    "location": "Dallas",
+    "salary": "$20 per hour",
+    "posted-date": "2022-03-02",
+    "closing-date": "2022-04-02",
+    "job-profile": "Provide administrative support to the office",
+    "experience": "N/A"
+  },
+  {
+    "job-title": "Technical Writer",
+    "job-type": "Full-time",
+    "location": "Seattle",
+    "salary": "$85,000",
+    "posted-date": "2022-03-03",
+    "closing-date": "2022-04-03",
+    "job-profile": "Create technical documentation and instructional materials",
+    "experience": "3+ years"
+  },
+  {
+    "job-title": "Social Media Manager",
+    "job-type": "Full-time",
+    "location": "Portland",
+    "salary": "$75,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-04-01",
+    "job-profile": "Manage social media accounts and develop content strategies",
+    "experience": "2+ years"
+  },
+  {
+    "job-title": "Software Tester",
+    "job-type": "Full-time",
+    "location": "San Francisco",
+    "salary": "$95,000",
+    "posted-date": "2022-03-02",
+    "closing-date": "2022-04-02",
+    "job-profile": "Test software applications for quality and functionality",
+    "experience": "3+ years"
+  },
+  {
+    "job-title": "UI/UX Designer",
+    "job-type": "Full-time",
+    "location": "New York City",
+    "salary": "$100,000",
+    "posted-date": "2022-03-03",
+    "closing-date": "2022-04-03",
+    "job-profile": "Design user interfaces and user experiences for software applications",
+    "experience": "4+ years"
+  },
+  {
+    "job-title": "Marketing Manager",
+    "job-type": "Full-time",
+    "location": "Chicago",
+    "salary": "$110,000",
+    "posted-date": "2022-03-01",
+    "closing-date": "2022-04-01",
+    "job-profile": "Develop and implement marketing strategies",
+    "experience": "5+ years"
+  }
+]

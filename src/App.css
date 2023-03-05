@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
+body {
+  overflow-block: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.label-text {
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.recruitment-ads-filters {
+  margin-bottom: 30px;
+  border: 3px white solid;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recruitment-ads-filter {
+  margin-bottom: 20px;
+}
+
+.recruitment-ads-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.recruitment-ads-column {
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.recruitment-ads-left-column {
+  width: 30%;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.recruitment-ads-left-column > div:nth-child(2) > div:nth-child(1) {
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+
+.recruitment-ads-search-container {
+  margin-bottom: 20px;
+}
+
+.recruitment-ads-search-input {
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.recruitment-ads-search-button {
+  padding: 10px;
+  background-color: #1e88e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.recruitment-ads-job-summary {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  line-height: 1.7;
+}
+
+.recruitment-ads-job-summary:hover {
+  background-color: #f5f5f5;
+}
+
+.recruitment-ads-job-summary > div:nth-child(1) {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+}
+
+.recruitment-ads-job-summary > div:nth-child(2) {
+  /* font-size: 1.2rem; */
+  font-weight: bold;
+}
+
+
+.recruitment-ads-right-column {
+  width: 70%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.recruitment-ads-details {
+  width: 80%;
+  
+}
+
+.recruitment-ads-details {
+  margin: 20px auto;
+}
+
+.recruitment-ads-details-summary {
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+
+
+.recruitment-ads-details-summary > div:nth-child(1) {
+  font-size: 1.8rem;
+  /* margin-left: 10px; */
+  margin-bottom: 10px;
+}
+
+.recruitment-ads-details-summary > div:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.recruitment-ads-details-summary > div:nth-child(3),
+.recruitment-ads-details-summary > div:nth-child(4),
+.recruitment-ads-details-summary > div:nth-child(5) {
+  font-size: 1.2rem;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+.job-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.job-form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.job-form-container input[type="text"],
+.job-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.job-form-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.job-form-container li {
+  margin-bottom: 10px;
+}
+
+.job-form-container button {
+  background-color: #4CAF50;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.job-form-container button:hover {
+  background-color: #3e8e41;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.job-form-container button:focus {
+  outline: none;
 }
+
+
