@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/inhouserecruit/static/css/main.c5da8a2b.css",
+    "main.js": "/inhouserecruit/static/js/main.5b8a38b6.js",
+    "index.html": "/inhouserecruit/index.html",
+    "main.c5da8a2b.css.map": "/inhouserecruit/static/css/main.c5da8a2b.css.map",
+    "main.5b8a38b6.js.map": "/inhouserecruit/static/js/main.5b8a38b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5da8a2b.css",
+    "static/js/main.5b8a38b6.js"
+  ]
+}
