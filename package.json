@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://sjammy.github.io/inHouseRecruit/",
+  "homepage": "https://sjammy.github.io/inhouserecruit/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
