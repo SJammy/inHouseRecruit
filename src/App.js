@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Layout from './pages/Layout'
-import JobForm from './pages/JobForm'
+// import JobForm from './pages/JobForm'
 // import RecruitAdScreen from './pages/RecruitAdScreen'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="jobform" element={<JobForm />} />
+          {/* <Route path="jobform" element={<JobForm />} /> */}
         </Route>
       </Routes>
     </Router>

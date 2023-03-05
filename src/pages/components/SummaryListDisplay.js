@@ -1,13 +1,14 @@
 import React from 'react'
 
-const SummaryListDisplay = ({displayResults, onJobClick}) => {
+const SummaryListDisplay = ({displayResults, onJobClick, selectedJob}) => {
   return (
     <div>
       SummaryListDisplay
+      
       {displayResults.map((job, index) => (
             <div
               key={index}
-              className='recruitment-ads-job-summary'
+              className={ selectedJob === job ? 'recruitment-ads-job-summary recruitment-ads-job-selected' : 'recruitment-ads-job-summary'}
               onClick={() => onJobClick(job)}
             >
               <div>{job['job-title']}</div>

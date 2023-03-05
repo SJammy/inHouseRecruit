@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+// import { useNavigate } from 'react-router-dom'
 
-const JobForm = () => {
-  const [formData, setFormData] = useState({
+const JobForm = ({ onJobFormData, scrollToSection }) => {
+  // const navigate = useNavigate();
+  const intialFormData = {
     'job-title': '',
     'job-type': '',
     location: '',
@@ -11,7 +13,18 @@ const JobForm = () => {
     company: '',
     contact: '',
     'job-description': '',
-  })
+    // 'job-title': 'q',
+    // 'job-type': 'q',
+    // location: 'q',
+    // salary: 'q',
+    // requirements: ['q'],
+    // benefits: ['q'],
+    // company: 'q',
+    // contact: 'q',
+    // 'job-description': 'q',
+  }
+
+  const [formData, setFormData] = useState(intialFormData)
 
   const handleInputChange = (event) => {
     const { name, value } = event.target
@@ -24,10 +37,24 @@ const JobForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault()
     console.log(formData)
+    onJobFormData(formData)
+    scrollToSection()
+    setFormData(intialFormData)
+    // navigate("/");
   }
 
   return (
     <div className='job-form-container'>
+      
+        <div className='button-cancel'>
+          <button
+            id='button-cancel-back'
+            onClick={() => scrollToSection()}
+          >
+            Back
+          </button>
+        </div>
+        <h2>New Job Posting</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Job Title:
@@ -153,7 +180,18 @@ const JobForm = () => {
             onChange={handleInputChange}
           />
         </label>
-        <button type='submit'>Submit</button>
+        <div>
+          <button type='submit'>Post Job</button>
+        </div>
+        <div className='button-cancel'>
+          <button
+            type='button'
+            id='button-cancel-form'
+            onClick={() => scrollToSection()}
+          >
+            Cancel
+          </button>
+        </div>
       </form>
     </div>
   )
