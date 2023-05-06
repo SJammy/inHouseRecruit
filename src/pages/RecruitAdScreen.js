@@ -47,13 +47,6 @@ const RecruitAdScreen = () => {
 
   return (
     <>
-      <div>
-        {/* <div ref={section1Ref}>
-        <h1>Section 1</h1>
-        <p>This is the first section.</p>
-        <button onClick={() => scrollToSection(section2Ref)}>Go to Section 2</button>
-      </div> */}
-      </div>
       <div ref={section1Ref} className='recruitment-ads-container'>
         <div className='recruitment-ads-left-column'>
           <div className='recruitment-ads-filters'>
@@ -66,12 +59,6 @@ const RecruitAdScreen = () => {
                 onChange={handleSearchTermChange}
                 className='recruitment-ads-search-input'
               />
-              {/* <button
-            onClick={handleSearch}
-            className='recruitment-ads-search-button'
-          >
-            Search
-          </button> */}
             </div>
             <div className='recruitment-ads-filter'>
               <label htmlFor='location'>Location:</label>
@@ -91,7 +78,6 @@ const RecruitAdScreen = () => {
                   id='alljobs'
                   name='jobType'
                   value='All'
-                  // checked={jobType === 'All'}
                   checked={true}
                   onChange={handleJobTypeChange}
                 />
@@ -138,20 +124,6 @@ const RecruitAdScreen = () => {
               onJobClick={handleJobClick}
               selectedJob={selectedJob}
             />
-            {/* {filteredResults.map((job, index) => (
-            <div
-              key={index}
-              className='recruitment-ads-job-summary'
-              onClick={() => handleJobClick(job)}
-            >
-              <div>{job['job-title']}</div>
-              <div>{job.company}</div>
-              <div>{job.salary}</div>
-              <div>{job['job-type']}</div>
-              <div>{job.location}</div>
-              <div>{job['posted-date']}</div>
-            </div>
-          ))} */}
           </div>
         </div>
         <div className='recruitment-ads-column recruitment-ads-right-column'>
@@ -167,20 +139,8 @@ const RecruitAdScreen = () => {
           <JobDetailsDisplay selectedJob={selectedJob} />
         </div>
       </div>
-      {/* <div ref={section2Ref}>
-        <h1>Section 2</h1>
-        <p>This is the second section.</p>
-        <button onClick={() => scrollToSection(section1Ref)}>Go to Section 1</button>
-      </div> */}
+
       <div ref={section2Ref}>
-        {/* <div className='button-cancel'>
-          <button
-            id='button-cancel-back'
-            onClick={() => scrollToSection(section1Ref)}
-          >
-            Back
-          </button>
-        </div> */}
         <JobForm
           onJobFormData={handleJobForm}
           scrollToSection={() => scrollToSection(section1Ref)}

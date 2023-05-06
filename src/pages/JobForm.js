@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-// import { useNavigate } from 'react-router-dom'
 
 const JobForm = ({ onJobFormData, scrollToSection }) => {
-  // const navigate = useNavigate();
   const intialFormData = {
     'job-title': '',
     'job-type': '',
@@ -13,15 +11,6 @@ const JobForm = ({ onJobFormData, scrollToSection }) => {
     company: '',
     contact: '',
     'job-description': '',
-    // 'job-title': 'q',
-    // 'job-type': 'q',
-    // location: 'q',
-    // salary: 'q',
-    // requirements: ['q'],
-    // benefits: ['q'],
-    // company: 'q',
-    // contact: 'q',
-    // 'job-description': 'q',
   }
 
   const [formData, setFormData] = useState(intialFormData)
@@ -40,21 +29,16 @@ const JobForm = ({ onJobFormData, scrollToSection }) => {
     onJobFormData(formData)
     scrollToSection()
     setFormData(intialFormData)
-    // navigate("/");
   }
 
   return (
     <div className='job-form-container'>
-      
-        <div className='button-cancel'>
-          <button
-            id='button-cancel-back'
-            onClick={() => scrollToSection()}
-          >
-            Back
-          </button>
-        </div>
-        <h2>New Job Posting</h2>
+      <div className='button-cancel'>
+        <button id='button-cancel-back' onClick={() => scrollToSection()}>
+          Back
+        </button>
+      </div>
+      <h2>New Job Posting</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Job Title:

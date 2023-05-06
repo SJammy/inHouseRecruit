@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+InHouse Recruit App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Job Postings UI
 
-## Available Scripts
+InHouse Recruit App is a React web application that provides an intuitive and user-friendly interface for managing job postings and applicants. With InHouse Recruit App, recruiters can easily create, update, and manage job postings, as well as review and track applicant information.
+Usage
 
-In the project directory, you can run:
+You can access the InHouse Recruit App web application by visiting the following URL: https://sjammy.github.io/inhouserecruit/.
 
-### `npm start`
+Once you have the web application open in your browser, you can start using it to manage your job postings and applicants. Here's how you can use the application:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    View Job Postings: The main page of the application displays a list of existing job postings. You can view the details of each job posting, including the job title, description, requirements, and application deadline.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Create New Job Posting: Click on the "Create Job Posting" button to add a new job posting. Fill in the required information such as job title, description, requirements, and application deadline.
 
-### `npm test`
+    Edit Job Postings: For each job posting, you have the option to edit the details or delete the posting if it is no longer relevant. Click on the respective buttons to perform these actions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Manage Applicants: Each job posting displays the list of applicants who have applied for the position. You can view applicant details, including their name, contact information, and resume.
 
-### `npm run build`
+    Review and Track Applicants: As a recruiter, you can review applicant information, including their qualifications and experience. Use the provided interface to track the status of each applicant and make informed decisions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Communicate with Applicants: InHouse Recruit App provides features for communicating with applicants directly. You can send emails or messages to applicants regarding their application status or request additional information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you wish to contribute to InHouse Recruit App or customize it to suit your needs, you can access the project's GitHub repository: https://github.com/SJammy/inhouserecruit.
 
-### `npm run eject`
+To set up the development environment, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Clone the repository to your local machine using Git or download the source code as a ZIP file.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Open the project folder in your preferred code editor.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Install the necessary dependencies by running npm install in the project's root directory.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Make any necessary modifications or enhancements to the codebase to suit your requirements.
 
-## Learn More
+    Test your changes locally by running npm start in the project's root directory. This will start a development server and open the application in your default web browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Once you are satisfied with your modifications, you can deploy the updated application to a web server or hosting platform of your choice.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+InHouse Recruit App is released under the MIT License.
