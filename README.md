@@ -13,14 +13,6 @@ Once you have the web application open in your browser, you can start using it t
 
     Create New Job Posting: Click on the "Create Job Posting" button to add a new job posting. Fill in the required information such as job title, description, requirements, and application deadline.
 
-    Edit Job Postings: For each job posting, you have the option to edit the details or delete the posting if it is no longer relevant. Click on the respective buttons to perform these actions.
-
-    Manage Applicants: Each job posting displays the list of applicants who have applied for the position. You can view applicant details, including their name, contact information, and resume.
-
-    Review and Track Applicants: As a recruiter, you can review applicant information, including their qualifications and experience. Use the provided interface to track the status of each applicant and make informed decisions.
-
-    Communicate with Applicants: InHouse Recruit App provides features for communicating with applicants directly. You can send emails or messages to applicants regarding their application status or request additional information.
-
 Development
 
 If you wish to contribute to InHouse Recruit App or customize it to suit your needs, you can access the project's GitHub repository: https://github.com/SJammy/inhouserecruit.
